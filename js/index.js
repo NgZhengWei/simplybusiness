@@ -6,3 +6,9 @@ function showNav(){
         navbar.className = "container";
     }
 }
+
+function clearLeft() {
+    let inp = document.querySelector("#heroInput");
+    inp.style.placeholder = "";
+    console.log("yeye");
+}
